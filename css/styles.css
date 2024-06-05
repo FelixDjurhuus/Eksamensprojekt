@@ -15,6 +15,12 @@ header {
     background-color: #fff;
     position: relative;
 }
+/*Footer (på alle sider)*/
+footer{
+  font-size: small;
+  font-weight: lighter;
+  text-align: center;
+}
 /*Logo, øverst til venstre*/
 .logo-container {
     flex: 1;
@@ -182,3 +188,34 @@ main {
     color: #000000;
     margin-bottom: 20px;
   }
+
+  /*Styling af 'Beer' siden*/
+  .beercontainer {
+    border: 2px solid #ffd737;
+    padding: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+    font-size: 25px;
+  }
+  
+  .beercontainer img {
+    width: 100%;
+    height: 500px;
+    object-fit: scale-down;
+    margin-bottom: 10px;
+  }
+  
+  .beercontainer h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .beercontainer p {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
